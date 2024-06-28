@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  mf_drawer:
+    build: ./mf_drawer
+    ports:
+      - "3000:3000"
+    env_file: .env
+  mf_videos:
+    build: ./mf_videos
+    ports:
+      - "3001:3001"
+    env_file: .env
+  bff:
+    build: ./bff
+    ports:
+      - "3002:3002"
+    env_file: .env

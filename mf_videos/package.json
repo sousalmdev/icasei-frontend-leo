@@ -1,0 +1,20 @@
+{
+    "name": "mf_videos",
+    "version": "1.0.0",
+    "description": "Micro frontend for videos",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js",
+      "test": "jest"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "typescript": "^4.5.4",
+      "ts-jest": "^27.0.7",
+      "jest": "^27.4.5",
+      "@types/jest": "^27.0.3",
+      "@types/node": "^16.11.9"
+    }
+  }
+  
